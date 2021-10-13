@@ -190,6 +190,7 @@ body {
     ),
     url(img/man.png);
 }
+
 .categories-item:nth-child(3) {
   background-image: linear-gradient(
       rgba(33, 22, 22, 0.7),
