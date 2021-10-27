@@ -1108,6 +1108,7 @@ button:focus-visible {
     color: darkgray;
     border: 1px solid #ebebeb;
 }
+
 .pagination li {
     display: inline;
 }
@@ -1440,10 +1441,10 @@ button:focus-visible {
     background-color: #fff;
     border: 2px solid #000;
     color: #000;
-    transform: scale(1,1.2);
-    transition-duration: .7s;
+    transform: scale(1, 1.2);
+    transition-duration: 0.7s;
 }
-.button-submit:active{
+.button-submit:active {
     background-color: #fff;
     border: 2px solid #f26376;
     color: #f26376;
@@ -1512,7 +1513,7 @@ button:focus-visible {
     background-color: #f5f3f3;
     border: 2px solid #f26376;
     color: #f26376;
-    transform: scale(1.2,1);
+    transform: scale(1.2, 1);
 }
 .checkout:active {
     background-color: #fff;
