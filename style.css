@@ -5,7 +5,7 @@
 body {
     font-family: Lato;
     background-color: #fff;
-    max-width: 100%;
+    width: 100%;
 }
 .container {
     max-width: 1600px;
@@ -287,6 +287,7 @@ body {
     background-position: bottom left;
 }
 .page-header-banner-wrp {
+    
     width: 377px;
     margin: 0 100px 90px 0;
     text-transform: uppercase;
@@ -316,6 +317,14 @@ body {
     font-weight: 700;
     font-size: 32px;
     line-height: 38.4px;
+    
+}
+.subtitle-span{ 
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    margin-left: 8px;
+    color: #f16d7f;
 }
 /*  categories  */
 .categories {
@@ -1398,6 +1407,7 @@ button:focus-visible {
 
 .quantity {
     margin-left: 24px;
+    width: 43px;
 }
 .form {
     position: absolute;
@@ -1687,4 +1697,66 @@ button:focus-visible {
 .loyalty li::before {
     content: "✔";
     margin-right: 23px;
+}
+
+@media (max-width:768px){
+    .page-header-banner{
+        background-size: 386px 368px
+    }
+    .page-header-banner{
+        min-height: 368px;
+    }
+    .page-header-banner-wrp{
+        width: 318px;
+        min-height: 78px;
+        margin: 0 33px 0 0;
+    }
+    .page-header-banner-title{
+        font-size: 44px;
+    }
+    .page-header-banner-subtitle{
+        font-size: 24px;
+    }
+    .categories{
+        margin-bottom: 154px;
+    }
+    .categories-item{
+        max-width: 232px;
+        width: 100%;
+        margin: 0 19px 0 0;
+    }
+    .categories-item:nth-child(3){
+        margin: 0;
+    }
+    .categories-item:last-child{
+        max-width: 100%;
+        margin: 19px 0 0 0;
+    }
+    .products{
+        justify-content: center;
+    }
+    .products-txt{
+        margin: 0 0 72px 0;
+    }
+    .products-item{
+        margin: 0;
+    }
+    .products-item:nth-child(3n-1){
+        margin: 0;
+    }
+    .products-btn{
+        margin-top: 33px;
+    }
+    .features{
+        min-height: 610px;
+    }
+    .features-item{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .features-item:nth-child(4n-1){
+        margin: 0;
+    }
 }
